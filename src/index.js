@@ -7,6 +7,7 @@ import {Route,Switch} from 'react-router-dom';
 import { store, persistor, history } from './store';
 import {PersistGate} from "redux-persist/integration/react";
 
+import './styles.css';
 import App from "./components/App.js";
 
 ReactDOM.render(
