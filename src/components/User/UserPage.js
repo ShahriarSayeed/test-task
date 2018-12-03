@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import DocumentTitle from 'react-document-title';
-import { Container } from 'semantic-ui-react'
+import NavBar from "../Navbar";
 
 class UserPage extends Component {
   render() {
@@ -8,9 +8,15 @@ class UserPage extends Component {
 
     return(
       <DocumentTitle title={title}>
-        <Container>
-          User page
-        </Container>
+        <div>
+          <NavBar/>
+          <div className={'main-container'}>
+            <h2>
+              User page
+            </h2>
+          </div>
+        </div>
+
       </DocumentTitle>
     )}
 }
