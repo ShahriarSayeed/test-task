@@ -1,5 +1,25 @@
 .main-container{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+th {
+  background: #ccc;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background: #efefef;
+}
+
+tr:hover {
+  background: #d1d1d1;
 }

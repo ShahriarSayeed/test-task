@@ -73,7 +73,7 @@ export function handleInputChange(e,obj,{name,value,fieldtype,required}) {
 }
 
 export function handleServerSucess(response,dispatch,constantName,waitingConstantName){
-  dispatch({type:constantName, responseData:response.data});
+  dispatch({type:constantName, responseData:response});
   dispatch({type:waitingConstantName, value:false});
 }
 
