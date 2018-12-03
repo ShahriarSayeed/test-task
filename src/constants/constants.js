@@ -1,9 +1,9 @@
 const setApiUrlBase=()=>{
   if (process.env.NODE_ENV==='development'){
-    return 'http://localhost:8000';
+    return 'https://randomuser.me';
   }
   else if (process.env.NODE_ENV==='production'){
-    return 'http://production-server.com';
+    return 'https://randomuser.me';
   }
 }
 
